@@ -69,13 +69,14 @@ This website is optimized for GitHub Pages deployment. Follow these steps:
 
 1. **Build the project**:
    ```bash
+   cd src
    npm run build
    ```
 
 2. **Copy dist contents**:
    ```bash
    # Copy everything from dist/ to your GitHub Pages repository root
-   cp -r dist/* /path/to/xuchen.github.io/
+   /bin/cp -rf dist/*  /path/to/xuchen.github.io/
    ```
 
 3. **Commit and push**:

@@ -1,90 +1,10 @@
 // The Token Epoch article content
 export const articleContent = `
-# The Token Epoch: Rethinking Economics of AI Labor from Man-Days to Mega-Token-Hours {#the-token-epoch:-rethinking-economics-of-ai-labor-from-man-days-to-mega-token-hours}
+# The Token Epoch: Rethinking Economics of AI Labor from Man-Days to Mega-Token-Hours
 
 ## Measuring Intelligence: A New Unit of Productivity for the AI Age
 
 Author: Xuchen Yao
-
-[**The Token Epoch: Rethinking Economics of AI Labor from Man-Days to Mega-Token-Hours	1**](#the-token-epoch:-rethinking-economics-of-ai-labor-from-man-days-to-mega-token-hours)
-
-[Chapter 1: From Horsepower to Man-Days \\- An Industrial Revolution Transformed by Units	2](#chapter-1:-from-horsepower-to-man-days---an-industrial-revolution-transformed-by-units)
-
-[1.1 Horsepower: The Power of the Steam Age	2](#1.1-horsepower:-the-power-of-the-steam-age)
-
-[1.2 Man-Days: The Workload Unit of the Digital Age	3](#1.2-man-days:-the-workload-unit-of-the-digital-age)
-
-[1.3 MTH: Measuring Efficiency in the AGI Era	4](#1.3-mth:-measuring-efficiency-in-the-agi-era)
-
-[Chapter 2: Why We Need New Productivity Units in the AI Age	6](#chapter-2:-why-we-need-new-productivity-units-in-the-ai-age)
-
-[2.1 What is a Token?	7](#2.1-what-is-a-token?)
-
-[2.2 Why Tokens?	8](#2.2-why-tokens?)
-
-[2.3 Why Are Tokens Still So Unfamiliar?	8](#2.3-why-are-tokens-still-so-unfamiliar?)
-
-[Chapter 3: Three Pillars of the Token Economy \\- Capacity, Speed, Price	9](#chapter-3:-three-pillars-of-the-token-economy---capacity,-speed,-price)
-
-[3.1. Capacity Units: The T System	9](#3.1.-capacity-units:-the-t-system)
-
-[3.2. Speed Units: The T/s System	11](#3.2.-speed-units:-the-t/s-system)
-
-[3.3. Cost Units: $/MT and kWh/MT, the Price Tag of Intelligence	12](#3.3.-cost-units:-$/mt-and-kwh/mt,-the-price-tag-of-intelligence)
-
-[📊 Token Economics & Energy Table	12](#📊-token-economics-&-energy-table)
-
-[Real-World Examples	12](#real-world-examples)
-
-[From Electricity to Intelligence: The New Alchemy	13](#from-electricity-to-intelligence:-the-new-alchemy)
-
-[The Gap \\- 1T Byte of Data: $40 vs. 1T Tokens: $1.2M	13](#the-gap---1t-byte-of-data:-$40-vs.-1t-tokens:-$1.2m)
-
-[3.4. Energy Perspective: Tokens Are Extremely Resource-Consuming	14](#3.4.-energy-perspective:-tokens-are-extremely-resource-consuming)
-
-[Chapter 4: Why Are We Still in the "2G Era" of AI Compute?	15](#chapter-4:-why-are-we-still-in-the-"2g-era"-of-ai-compute?)
-
-[4.1. How Communication Networks Made the Leap \\- AI Compute Must Do the Same	17](#4.1.-how-communication-networks-made-the-leap---ai-compute-must-do-the-same)
-
-[4.2. From Compute Plants to Compute Towers	18](#4.2.-from-compute-plants-to-compute-towers)
-
-[4.3. Crossing the Compute Chasm	18](#4.3.-crossing-the-compute-chasm)
-
-[Chapter 5: From Man-Days to MTH \\- The Rise of AI Labor	19](#chapter-5:-from-man-days-to-mth---the-rise-of-ai-labor)
-
-[5.1. From Man-Days to Token-Hour: AI Agents Redefine Productivity	19](#5.1.-from-man-days-to-token-hour:-ai-agents-redefine-productivity)
-
-[5.2. Building National AI Grids	20](#5.2.-building-national-ai-grids)
-
-[5.3. How Many Tokens Do We Need? The Meaning of a Tera-Token Throughput	22](#5.3.-how-many-tokens-do-we-need?-the-meaning-of-a-tera-token-throughput)
-
-[Chapter 6: Civilization's Leap into the Age of Tokens	23](#chapter-6:-civilization's-leap-into-the-age-of-tokens)
-
-[6.1 New Literacy Around Tokens	23](#6.1-new-literacy-around-tokens)
-
-[1\\. Tokens as the Atomic Unit of Language Models (T)	23](#1.-tokens-as-the-atomic-unit-of-language-models-\\(t\\))
-
-[2\\. Token Scale and Aggregation (MT, GT)	23](#2.-token-scale-and-aggregation-\\(mt,-gt\\))
-
-[3\\. Token Throughput (T/s, KT/s, MT/s, GT/s)	23](#3.-token-throughput-\\(t/s,-kt/s,-mt/s,-gt/s\\))
-
-[4\\. Token Economics ($/MT)	24](#4.-token-economics-\\($/mt\\))
-
-[5\\. Energy Efficiency of Token Processing (kWh/GT)	24](#5.-energy-efficiency-of-token-processing-\\(kwh/gt\\))
-
-[6\\. Token-Driven Productivity (MTH, Mega-Token-Hour)	24](#6.-token-driven-productivity-\\(mth,-mega-token-hour\\))
-
-[6.2 From Individuals to Nations: A Token-Based Society	24](#6.2-from-individuals-to-nations:-a-token-based-society)
-
-[For Individuals	24](#for-individuals)
-
-[For Enterprises	24](#for-enterprises)
-
-[Token Markets	25](#token-markets)
-
-[National Policy Implications	25](#national-policy-implications)
-
-[6.3 From Horsepower to MTH: Standardizing the Intelligence Economy	25](#6.3-from-horsepower-to-mth:-standardizing-the-intelligence-economy)
 
 In this series, we explore how **tokens**—the atomic units of generative AI—are becoming a **new form of labor, currency, and infrastructure**, just like water, electricity, and data before them.
 
@@ -100,9 +20,9 @@ From **horsepower** to **man-days**, and now to **Mega-Token-Hours**, the story 
 
 Welcome to the **Token Epoch**—where AI labor becomes measurable, monetizable, and massively distributed.
 
-## Chapter 1: From Horsepower to Man-Days - An Industrial Revolution Transformed by Units {#chapter-1:-from-horsepower-to-man-days---an-industrial-revolution-transformed-by-units}
+## Chapter 1: From Horsepower to Man-Days - An Industrial Revolution Transformed by Units
 
-### **1.1 Horsepower: The Power of the Steam Age** {#1.1-horsepower:-the-power-of-the-steam-age}
+### **1.1 Horsepower: The Power of the Steam Age** 
 
 "This 2025 Tesla Model S Plaid has a peak power of 760 Kilo-Newton-Meters per Second."
 
@@ -124,7 +44,7 @@ How powerful is 1,020 horsepower exactly? A simple calculation shows it means li
 
 In the age of industrial thunder, horsepower was more than a unit—it was the heartbeat of progress. From the clatter of textile looms and the roar of drills, to ships slicing through oceans, planes tearing through skies, rockets breaking Earth's grip, and even Armstrong's first step on the Moon—each was powered, measured, and made possible by the raw force of horsepower.
 
-### **1.2 Man-Days: The Workload Unit of the Digital Age** {#1.2-man-days:-the-workload-unit-of-the-digital-age}
+### **1.2 Man-Days: The Workload Unit of the Digital Age** 
 
 Then came a quieter revolution. We invented a new type of factory called the "office," where office workers  wore suits instead of overalls, and wielded keyboards instead of wrenches. Countless office workers sat at computers, buried in processing documents, designing proposals, calculating spreadsheets, writing reports, managing operations. The productivity engine of humanity shifted from loud machines to silent cubicles.
 
@@ -154,7 +74,7 @@ But something else entirely.
 
 The answer might be: Mega-Token-Hours.
 
-### **1.3 MTH: Measuring Efficiency in the AGI Era** {#1.3-mth:-measuring-efficiency-in-the-agi-era}
+### **1.3 MTH: Measuring Efficiency in the AGI Era** 
 
 Mega-Token-Hours may sound like gibberish now, but bear with me:
 
@@ -205,7 +125,7 @@ The new business model of AI infrastructure is simple: Buy traditional resources
 
 It's the early days of a new industrial revolution—only this time, we're not measuring the flow of electrons. We're measuring the rise of artificial intelligence.
 
-## Chapter 2: Why We Need New Productivity Units in the AI Age {#chapter-2:-why-we-need-new-productivity-units-in-the-ai-age}
+## Chapter 2: Why We Need New Productivity Units in the AI Age
 
 Modern civilization is built on precise measurement.
 
@@ -246,7 +166,7 @@ Resource cost = unit × price.
 
 LLM's basic unit is called Token. A Token might be a word, a part of a word (subword), or even just a single letter—depending on the model's encoding scheme.
 
-### **2.1 What is a Token?** {#2.1-what-is-a-token?}
+### **2.1 What is a Token?** 
 
 In AI, a Token is like the electron of the digital mind—small, essential, and everywhere.
 
@@ -281,7 +201,7 @@ Tokens don't have to match human intuition. A single Token might represent an en
 
 An earlier version of ChatGPT once struggled to count how many "r"s were in "strawberry" — because the model treated the whole word as one Token, like a black box. Trying to count the "r"s in this particular Token is like being handed a droplet of water and asked how many molecules are inside.
 
-### **2.2 Why Tokens?** {#2.2-why-tokens?}
+### **2.2 Why Tokens?** 
 
 Because no matter how complex the input, LLMs process everything as a stream of Tokens.
 
@@ -308,7 +228,7 @@ Model optimization focuses on Tokens per second (TPS)
 
 Future smart infrastructure will track token throughput, cost per token, and energy per token
 
-### **2.3 Why Are Tokens Still So Unfamiliar?** {#2.3-why-are-tokens-still-so-unfamiliar?}
+### **2.3 Why Are Tokens Still So Unfamiliar?** 
 
 Because there's still no universal standard for them.
 
@@ -344,9 +264,9 @@ In the AI-powered future, Tokens will be indispensable new commodities like elec
 
 The AI era needs unified Token standards as its unit of productivity.
 
-## Chapter 3: Three Pillars of the Token Economy - Capacity, Speed, Price {#chapter-3:-three-pillars-of-the-token-economy---capacity,-speed,-price}
+## Chapter 3: Three Pillars of the Token Economy - Capacity, Speed, Price
 
-### **3.1. Capacity Units: The T System** {#3.1.-capacity-units:-the-t-system}
+### **3.1. Capacity Units: The T System** 
 
 Just as storage space has hierarchical units like "Byte / KB / MB / GB / TB," tokens also require their own standardized units of measurement.
 
@@ -380,7 +300,7 @@ In the future, enterprises purchasing AI resources will be like buying data plan
 
 Unfortunately, Tokens cannot be "pre-charged" like batteries, only calculated in real-time on demand \\- you cannot carry a "50MT power bank" everywhere.
 
-### **3.2. Speed Units: The T/s System** {#3.2.-speed-units:-the-t/s-system}
+### **3.2. Speed Units: The T/s System** 
 
 Similar to how network bandwidth is measured in units like MB/s, the processing speed of large models also requires standardized units. The following are suggested:
 
@@ -412,7 +332,7 @@ This actually happens in the real world, like certain cloud storage services giv
 
 So when buying AI services in the future, remember to check two numbers: capacity (how big is the Token package) and speed (is T/s fast enough)!
 
-### **3.3. Cost Units: $/MT and kWh/MT, the Price Tag of Intelligence** {#3.3.-cost-units:-$/mt-and-kwh/mt,-the-price-tag-of-intelligence}
+### **3.3. Cost Units: $/MT and kWh/MT, the Price Tag of Intelligence** 
 
 Since Tokens are a resource, they should also come with a price tag and an energy footprint—just like:
 
@@ -425,14 +345,14 @@ We can define large model usage in terms of cost and power consumption:
 * **Price**: $/MT – How many dollars per million tokens  
 * **Energy**: kWh/MT or kWh/TT – How many kilowatt-hours per million or trillion tokens
 
-### 📊 Token Economics & Energy Table {#📊-token-economics-&-energy-table}
+### 📊 Token Economics & Energy Table 
 
 | Metric | Unit | Analogy | Real-World Example |
 | :---- | :---- | :---- | :---- |
 | **Token Price** | $/MT | Like electricity price ($/kWh) | GPT-4: $2/MT for input and $8/MT for output |
 | **Token Energy** | kWh/MT | Like a utility meter reading | GPT-3 training ≈ 1.3 GWh/TT |
 
-### Real-World Examples {#real-world-examples}
+### Real-World Examples 
 
 * In early 2025,  
     
@@ -457,7 +377,7 @@ We can define large model usage in terms of cost and power consumption:
   * Energy: 45,000 kWh  
   * Equivalent to a small county's power usage for one hour
 
-### From Electricity to Intelligence: The New Alchemy {#from-electricity-to-intelligence:-the-new-alchemy}
+### From Electricity to Intelligence: The New Alchemy 
 
 Tokens may look like just "words," but behind them is a conversion of real money and real electricity.
 
@@ -471,7 +391,7 @@ Today's conversion efficiency? We're still at the **steam engine stage of the AI
 
 What does far from peak efficiency mean? Tokens are about 10,000 times more expensive than data – 
 
-### The Gap \\- 1T Byte of Data: $40 vs. 1T Tokens: $1.2M {#the-gap---1t-byte-of-data:-$40-vs.-1t-tokens:-$1.2m}
+### The Gap \\- 1T Byte of Data: $40 vs. 1T Tokens: $1.2M 
 
 In a world where we casually burn 1 TB of mobile data a month for a few dozen dollars, generating 1 TT of intelligent output costs $1.2 million.
 
@@ -484,7 +404,7 @@ to bring intelligence generation closer to how we treat data consumption today.
 
 This isn't just about AI scaling—it's about powering the **next industrial revolution of intelligence.**
 
-### **3.4. Energy Perspective: Tokens Are Extremely Resource-Consuming** {#3.4.-energy-perspective:-tokens-are-extremely-resource-consuming}
+### **3.4. Energy Perspective: Tokens Are Extremely Resource-Consuming** 
 
 To help people understand more intuitively, we compare the newly proposed Token measurement system with traditional resources:
 
@@ -511,7 +431,7 @@ This is the reality of intelligent society: computing power is the new fuel, Tok
 
 Humanity is entering an era where data is raw material, computing power is the factory, and Tokens are the product. AI costs determine the scale of the intelligent economy.
 
-## Chapter 4: Why Are We Still in the "2G Era" of AI Compute? {#chapter-4:-why-are-we-still-in-the-"2g-era"-of-ai-compute?}
+## Chapter 4: Why Are We Still in the "2G Era" of AI Compute?
 
 Achieving 1GT/s computing power on a single machine isn't actually difficult. The difficulty is: can we equip everyone with 1GT/s Token speed?
 
@@ -537,7 +457,7 @@ From 200 T/s to 1 billion/s (GT/s), we're still far from the AI life we imagine 
 
 This reminds me of 1900s New York: although Edison's Pearl Street Station had been operating for 18 years, ordinary households still mainly used kerosene lamps because electricity was too expensive and scarce.
 
-### **4.1. How Communication Networks Made the Leap - AI Compute Must Do the Same** {#4.1.-how-communication-networks-made-the-leap---ai-compute-must-do-the-same}
+### **4.1. How Communication Networks Made the Leap - AI Compute Must Do the Same** 
 
 Don't underestimate this "Tokens per Second" unit. It's like your mobile network's download speed — it defines your upper limit of experience.
 
@@ -557,7 +477,7 @@ In the 2G era, websites took a minute to load.
 
 Meanwhile, our "Token Network" — the computational bandwidth of AI — is still in the 2T stage: maxing out at 1,000 tokens per second, which means it takes 10 seconds to write a short paragraph. It's still a semi-manual experience.
 
-### **4.2. From Compute Plants to Compute Towers** {#4.2.-from-compute-plants-to-compute-towers}
+### **4.2. From Compute Plants to Compute Towers** 
 
 Every mobile network upgrade required enormous infrastructure buildouts.
 
@@ -589,7 +509,7 @@ Healthcare Access: Rural clinics receive AI diagnostics on par with top hospital
 
 When 1GT/s per person becomes as common as a 5G phone today, AI assistants will truly earn the name: real-time companions.
 
-### **4.3. Crossing the Compute Chasm** {#4.3.-crossing-the-compute-chasm}
+### **4.3. Crossing the Compute Chasm** 
 
 To move from 200T/s to 1GT/s per person, we must overcome three barriers:
 
@@ -606,11 +526,11 @@ Technology advances exponentially — but human adoption is linear. These runawa
 
 From the vantage point of 2025 — the "2T Era" of AI — today's complaints about slow output may one day sound like the nostalgic screech of dial-up modems: quaint reminders of how far we've come in digital civilization.
 
-## Chapter 5: From Man-Days to MTH - The Rise of AI Labor {#chapter-5:-from-man-days-to-mth---the-rise-of-ai-labor}
+## Chapter 5: From Man-Days to MTH - The Rise of AI Labor
 
 From man-days to MTH, the future AI intelligent network is remarkably similar to the restart of the electrical era. Except this time, what's transmitted is no longer electricity, but Tokens themselves.
 
-### **5.1. From Man-Days to Token-Hour: AI Agents Redefine Productivity** {#5.1.-from-man-days-to-token-hour:-ai-agents-redefine-productivity}
+### **5.1. From Man-Days to Token-Hour: AI Agents Redefine Productivity** 
 
 In traditional engineering, labor costs are typically measured in *man-hours* or *man-days*. This pricing model is common in the outsourcing industry — for example, in the U.S., a software engineer's man-hour ranges from $100 to $300, with top-tier consulting firms charging as high as $900/hour.
 
@@ -640,7 +560,7 @@ It's reminiscent of the 19th-century Luddite movement — when machines made tex
 
 As AI agents advance, "1 hour" could shrink to just minutes. This new labor unit — MTH —  could become the new norm, much like how we once used "horsepower" to measure engines. Now we might say, "This task costs 8 MTH."
 
-### **5.2. Building National AI Grids** {#5.2.-building-national-ai-grids}
+### **5.2. Building National AI Grids** 
 
 If the industrial era ran on electricity, then the Token Epoch will be powered by tokens.
 
@@ -684,7 +604,7 @@ No wonder Jensen Huang's presentation stops at "200T/s for 1 user." Compute, pow
 
 That's why hyperscalers are pivoting to nuclear energy. Sam Altman's Stargate project — a $500 billion investment — isn't just sci-fi fantasy.
 
-### **5.3. How Many Tokens Do We Need? The Meaning of a Tera-Token Throughput** {#5.3.-how-many-tokens-do-we-need?-the-meaning-of-a-tera-token-throughput}
+### **5.3. How Many Tokens Do We Need? The Meaning of a Tera-Token Throughput** 
 
 How many people can 1 TT/s support?
 
@@ -714,9 +634,9 @@ Just as people in 1870 couldn't imagine the world electrified, we can't yet fath
 
 The Token Economy is still a baby. But one day, it may grow into a giant that reshapes the world.
 
-## Chapter 6: Civilization's Leap into the Age of Tokens {#chapter-6:-civilization's-leap-into-the-age-of-tokens}
+## Chapter 6: Civilization's Leap into the Age of Tokens 
 
-### 6.1 New Literacy Around Tokens {#6.1-new-literacy-around-tokens}
+### 6.1 New Literacy Around Tokens 
 
 Our understanding of tokens is evolving—not just as units of computation, but as the foundation of a new societal infrastructure. Much like how the early days of electricity required people to grasp watts and kilowatt-hours, the age of AI demands a new literacy around tokens. This journey spans six conceptual layers:
 
@@ -752,7 +672,7 @@ Energy usage per token (e.g., kWh/GT) is both an environmental and economic conc
 
 Ultimately, token value lies in its output. We proposed a new unit: MTH (Mega Token Hour)—the AI equivalent of man-hours. This lets us compare human and machine productivity on common ground. As AI becomes the new workforce, MTH becomes the new measure of work.
 
-### 6.2 From Individuals to Nations: A Token-Based Society {#6.2-from-individuals-to-nations:-a-token-based-society}
+### 6.2 From Individuals to Nations: A Token-Based Society 
 
 For Individuals
 
@@ -804,7 +724,7 @@ Cross-Border AI Flow Policies: Ensuring sovereignty over domestic data, preventi
 
 In short, the token economy will touch policy realms ranging from climate to commerce, requiring oversight akin to electricity, bandwidth, or currency.
 
-### 6.3 From Horsepower to MTH: Standardizing the Intelligence Economy {#6.3-from-horsepower-to-mth:-standardizing-the-intelligence-economy}
+### 6.3 From Horsepower to MTH: Standardizing the Intelligence Economy 
 
 Every transformative technological era has brought with it a new unit of measure—one that not only describes the mechanics of progress but helps to shape how society organizes labor, resources, and ambition:
 

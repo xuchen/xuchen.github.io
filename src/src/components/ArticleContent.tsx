@@ -105,7 +105,7 @@ const ArticleContent: React.FC = () => {
                   <p className="text-slate-600">
                     {index === 0 
                       ? "Introduction and overview" 
-                      : `${Math.ceil(section.content.length / 200)} min read`
+                      : `${Math.ceil(section.content.length / 600)} min read`
                     }
                   </p>
                 </div>

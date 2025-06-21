@@ -257,9 +257,10 @@ const Homepage: React.FC = () => {
           </div>
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Xuchen Yao</h1>
           <p className="text-xl text-slate-600 mb-6">I build tech companies</p>
+          <p className="text-base text-slate-500 mb-4">Connect with me on <a href="https://www.linkedin.com/in/xuchenyao" className="underline hover:text-blue-700" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
           <div className="text-lg text-slate-700 space-y-2">
             <p>Now: co-founder/CEO of <a href="https://seasalt.ai" className="text-blue-600 hover:text-blue-800 font-semibold" target="_blank" rel="noopener noreferrer">SEASALT.AI</a></p>
-            <p>Was: co-founder/CEO of <a href="https://kitt.ai" className="text-blue-600 hover:text-blue-800 font-semibold" target="_blank" rel="noopener noreferrer">KITT.AI</a></p>
+            <p>Was: co-founder/CEO of KITT.AI</p>
           </div>
           
           {/* Token Epoch Featured Link */}
@@ -395,7 +396,7 @@ const Homepage: React.FC = () => {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="text-center text-slate-500 border-t border-slate-200 pt-8"
         >
-          <p>Made with ❤️ in the city of</p>
+          <p>Made with ❤️ in the city of ☕🌧️✈️💎</p>
           <p className="mt-2">Copyright © 2019-2025. All Rights Reserved.</p>
         </motion.footer>
       </div>
