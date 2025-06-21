@@ -1,0 +1,82 @@
+{
+  "hero_timeline": {
+    "type": "Interactive Timeline",
+    "description": "Evolution from Horsepower \u2192 Man-Days \u2192 MTH",
+    "features": [
+      "Clickable eras",
+      "Animated transitions",
+      "Key examples"
+    ],
+    "data_focus": "timeline"
+  },
+  "cost_calculator": {
+    "type": "Interactive Calculator",
+    "description": "Compare traditional vs AI costs for various tasks",
+    "features": [
+      "Input sliders",
+      "Real-time calculations",
+      "Cost breakdown"
+    ],
+    "data_focus": "cost_comparisons"
+  },
+  "token_dashboard": {
+    "type": "Token Economy Dashboard",
+    "description": "Live view of token metrics and scaling",
+    "features": [
+      "Speed meters",
+      "Cost displays",
+      "Usage plans"
+    ],
+    "data_focus": "token_systems"
+  },
+  "network_comparison": {
+    "type": "Side-by-Side Comparison",
+    "description": "2G\u21925G vs 2T\u21925T evolution visualization",
+    "features": [
+      "Parallel timelines",
+      "Speed comparisons",
+      "Future projections"
+    ],
+    "data_focus": "network_evolution"
+  },
+  "infrastructure_scale": {
+    "type": "Scale Visualization",
+    "description": "Massive infrastructure needed for 1 TT/s",
+    "features": [
+      "Proportional graphics",
+      "Energy comparisons",
+      "Geographic scale"
+    ],
+    "data_focus": "infrastructure"
+  },
+  "energy_infographic": {
+    "type": "Animated Infographic",
+    "description": "Energy flow from electricity to intelligence",
+    "features": [
+      "Flow animations",
+      "Conversion rates",
+      "Environmental impact"
+    ],
+    "data_focus": "energy"
+  },
+  "usage_planner": {
+    "type": "Interactive Planner",
+    "description": "Plan your token usage across different scenarios",
+    "features": [
+      "Drag-and-drop",
+      "Budget calculator",
+      "Scenario modeling"
+    ],
+    "data_focus": "usage_plans"
+  },
+  "future_scenarios": {
+    "type": "Scenario Explorer",
+    "description": "Explore societal implications of 1 TT/s world",
+    "features": [
+      "Interactive scenarios",
+      "Impact visualization",
+      "Timeline progression"
+    ],
+    "data_focus": "societal_impact"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "timeline": {
+    "eras": [
+      {
+        "era": "Steam Age",
+        "period": "1780s-1880s",
+        "unit": "Horsepower",
+        "description": "Physical power measurement",
+        "example": "Karl Benz's first automobile: 0.9 HP",
+        "modern_example": "Tesla Model S Plaid: 1,020 HP",
+        "key_advancement": "Steam engines replaced horses"
+      },
+      {
+        "era": "Digital Age",
+        "period": "1900s-2020s",
+        "unit": "Man-Days",
+        "description": "Human labor measurement",
+        "example": "Small website: 3 man-days",
+        "modern_example": "Product launch presentation: 20 man-days",
+        "key_advancement": "Office work replaced manual labor"
+      },
+      {
+        "era": "AI Age",
+        "period": "2020s-Future",
+        "unit": "Mega-Token-Hours (MTH)",
+        "description": "AI cognitive work measurement",
+        "example": "2-min Instagram Reel: 5 MTH",
+        "modern_example": "Restaurant ordering app: 20 MTH",
+        "key_advancement": "AI agents replace knowledge workers"
+      }
+    ]
+  },
+  "token_systems": {
+    "capacity": {
+      "units": [
+        "KT",
+        "MT",
+        "GT",
+        "TT",
+        "PT"
+      ],
+      "examples": {
+        "KT": {
+          "name": "Kilo-Tokens",
+          "example": "Ordinary blog post: 5 KT"
+        },
+        "MT": {
+          "name": "Mega-Tokens",
+          "example": "Encyclopedia Britannica: 53 MT"
+        },
+        "GT": {
+          "name": "Giga-Tokens",
+          "example": "English Wikipedia: 6.4 GT"
+        },
+        "TT": {
+          "name": "Tera-Tokens",
+          "example": "GPT training data"
+        },
+        "PT": {
+          "name": "Peta-Tokens",
+          "example": "Future AI datasets"
+        }
+      }
+    },
+    "speed": {
+      "units": [
+        "T/s",
+        "KT/s",
+        "MT/s",
+        "GT/s"
+      ],
+      "examples": {
+        "50 KT/s": "High-end GPU performance",
+        "1.85 KT/s": "Low-end GPU performance",
+        "200 T/s": "Current per-user allocation (2025)",
+        "1 GT/s": "Future goal per user"
+      }
+    },
+    "cost": {
+      "pricing_2025": {
+        "DeepSeek-chat": "$1/MT",
+        "DeepSeek-reasoner": "$2/MT",
+        "Energy_cost": "0.045 kWh/MT"
+      },
+      "comparisons": {
+        "1TB_data": "$40",
+        "1TT_tokens": "$1,200,000",
+        "cost_ratio": "30,000x more expensive"
+      }
+    }
+  },
+  "cost_comparisons": {
+    "traditional_vs_ai": {
+      "website_development": {
+        "human": {
+          "time": "6 days",
+          "cost": "$4,800",
+          "unit": "man-days"
+        },
+        "ai": {
+          "time": "1 hour",
+          "cost": "$8",
+          "unit": "8 MTH"
+        }
+      },
+      "professional_services": {
+        "software_engineer": "$100-300/hour",
+        "lawyer": "$200-600/hour",
+        "consultant": "$300-900/hour",
+        "ai_equivalent": "$8/hour for similar output"
+      }
+    }
+  },
+  "network_evolution": {
+    "mobile_networks": {
+      "2G": {
+        "speed": "5 KB/s",
+        "era": "Early 2000s"
+      },
+      "3G": {
+        "speed": "384 KB/s",
+        "era": "2000s"
+      },
+      "4G": {
+        "speed": "100 MB/s",
+        "era": "2010s"
+      },
+      "5G": {
+        "speed": "1 GB/s",
+        "era": "2020s"
+      }
+    },
+    "token_networks": {
+      "2T": {
+        "speed": "1,000 T/s",
+        "era": "2025",
+        "description": "Current AI era"
+      },
+      "3T": {
+        "speed": "10,000 T/s",
+        "era": "Future",
+        "description": "Enhanced AI"
+      },
+      "4T": {
+        "speed": "100,000 T/s",
+        "era": "Future",
+        "description": "Advanced AI"
+      },
+      "5T": {
+        "speed": "1,000,000 T/s",
+        "era": "Future",
+        "description": "Instant AI"
+      }
+    }
+  },
+  "infrastructure": {
+    "1_TT_per_second_requirements": {
+      "gpus_needed": "540 million",
+      "cost": "$15.1 trillion USD",
+      "power_consumption": "162 million kWh/hour",
+      "hoover_dams_equivalent": "700+",
+      "us_electricity_percentage": "33%"
+    },
+    "current_limitations": {
+      "jensen_huang_prediction": "200 T/s per user (universal adoption)",
+      "comparison": "Like having 5G downgraded to 2G"
+    }
+  },
+  "energy": {
+    "wikipedia_generation": {
+      "size": "6.4 GT",
+      "cost": "$1,280",
+      "energy": "45 kWh",
+      "ev_equivalent": "Half charge of 100kWh EV"
+    },
+    "1_trillion_tokens": {
+      "cost": "$1.2 million",
+      "energy": "45,000 kWh",
+      "description": "Small county's power usage for one hour"
+    }
+  },
+  "usage_plans": {
+    "individual": {
+      "basic": {
+        "tokens": "1 MT/month",
+        "use_case": "Occasional queries, personal agents"
+      },
+      "pro": {
+        "tokens": "10 MT/month",
+        "use_case": "Priority processing, faster responses"
+      },
+      "creator": {
+        "tokens": "100 MT/month",
+        "use_case": "Content generation, automation"
+      }
+    },
+    "enterprise": {
+      "marketing": {
+        "tokens": "50 MT/month",
+        "use_case": "Content generation, A/B testing"
+      },
+      "customer_support": {
+        "tokens": "100 MT/month",
+        "use_case": "24/7 intelligent responses"
+      },
+      "research": {
+        "tokens": "200 MT/month",
+        "use_case": "Data mining, simulations"
+      }
+    }
+  },
+  "societal_impact": {
+    "1_TT_per_second_world": {
+      "population_served": "340 million people (US population)",
+      "task_frequency": "One complex task every 85 seconds per person",
+      "implications": [
+        "GDP statistics become obsolete",
+        "90% of white-collar jobs shift to AI supervision",
+        "Skill power replaces degrees",
+        "Individual breakthroughs at institutional scale"
+      ]
+    }
+  }
+}
