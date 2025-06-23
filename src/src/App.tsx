@@ -6,11 +6,11 @@ import TokenEpochAppZh from './TokenEpochAppZh'
 import { useEffect } from 'react';
 import './App.css'
 
-<RedirectHandler />
 
 function App() {
   return (
     <Router>
+      <RedirectHandler />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/the-token-epoch" element={<TokenEpochApp />} />

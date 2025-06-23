@@ -343,6 +343,86 @@ const ROUTES = [
 ];
 ```
 
+#### GitHub Redirect with 404
+
+There is a classic issue with deploying Single Page Applications (SPAs) like Vite/React to GitHub Pages:
+
+When you visit https://xuchen.github.io/the-token-epoch directly or refresh, GitHub Pages tries to find a file at index.html, which does not exist (since all routes are handled by your SPA's index.html).
+Why it works the first time:
+
+If you navigate from the homepage, the SPA router handles the route in the browser.
+On refresh or direct link, GitHub Pages tries to serve a static file for that path and fails.
+Solution: Use a 404.html Redirect
+GitHub Pages will serve 404.html for any unknown path. You can use a JavaScript redirect in 404.html to send all unknown routes back to your SPA, preserving the path.
+
+1. Add a 404.html file to your public/ directory with this content:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Redirect all 404s to index.html and preserve the path
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('/index.html?redirect=' + encodeURIComponent(path));
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
+</html>
+```
+
+2. Update your SPA to handle the redirect
+In your src/main.tsx or src/App.tsx, add logic to check for the redirect query parameter and use the router to navigate to the correct path.
+
+Example (for React Router v6):
+
+```typescript
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+function RedirectHandler() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get('redirect');
+    if (redirect) {
+      navigate(redirect, { replace: true });
+    }
+  }, [navigate]);
+  return null;
+}
+
+// In your App component, render <RedirectHandler /> at the top such as:
+
+function App() {
+  return (
+    <Router>
+      <RedirectHandler />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/the-token-epoch" element={<TokenEpochApp />} />
+        <Route path="/the-token-epoch/zh" element={<TokenEpochAppZh />} />
+      </Routes>
+    </Router>
+  )
+}
+```
+
+3. Rebuild and redeploy
+Run your build command and deploy to GitHub Pages again.
+Alternative: Use HashRouter
+If you don't want to deal with this, you can use HashRouter from react-router-dom instead of BrowserRouter. This will make all routes look like https://xuchen.github.io/#/the-token-epoch, which always works on GitHub Pages.
+
+Summary
+The 404 on refresh is because GitHub Pages only serves static files.
+Use a 404.html redirect or switch to HashRouter for full compatibility.
+
+
+
 #### Sitemap Configuration
 
 **Update domain (important for production):**
