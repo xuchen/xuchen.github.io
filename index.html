@@ -7,18 +7,105 @@
   <title>The Token Epoch - Rethinking Economics of AI Labor | Xuchen Yao</title>
   <meta name="description" content="Explore the evolution from horsepower to man-days to Mega-Token-Hours (MTH) - the new unit of AI productivity in the Token Epoch.">
   <meta name="author" content="Xuchen Yao">
-  <meta property="og:title" content="The Token Epoch - Rethinking Economics of AI Labor">
+  <meta name="keywords" content="Token Epoch, AI Economics, Mega-Token-Hours, AI Labor Economics, Xuchen Yao, Token-based Economy, AI Productivity Measurement">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xuchen.github.io/">
+  <meta property="og:title" content="The Token Epoch - Rethinking Economics of AI Labor | Xuchen Yao">
   <meta property="og:description" content="From horsepower to man-days, and now to Mega-Token-Hours - discover how AI labor becomes measurable, monetizable, and massively distributed.">
-  <meta property="og:type" content="article">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="The Token Epoch - Rethinking Economics of AI Labor">
+  <meta property="og:image" content="https://xuchen.github.io/images/ai-neural-background.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://xuchen.github.io/">
+  <meta name="twitter:title" content="The Token Epoch - Rethinking Economics of AI Labor | Xuchen Yao">
   <meta name="twitter:description" content="Interactive exploration of token economics and the future of AI productivity measurement.">
+  <meta name="twitter:image" content="https://xuchen.github.io/images/ai-neural-background.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "url": "https://xuchen.github.io/",
+        "name": "The Token Epoch | Xuchen Yao",
+        "description": "Explore the evolution from horsepower to man-days to Mega-Token-Hours (MTH) - the new unit of AI productivity in the Token Epoch.",
+        "author": {
+          "@type": "Person",
+          "name": "Xuchen Yao"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://xuchen.github.io/#person",
+        "name": "Xuchen Yao",
+        "url": "https://xuchen.github.io/",
+        "jobTitle": "Researcher"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://xuchen.github.io/#profile",
+        "url": "https://xuchen.github.io/",
+        "name": "Xuchen Yao - Profile",
+        "isPartOf": {
+          "@id": "https://xuchen.github.io/"
+        },
+        "inLanguage": "en-US",
+        "mainEntity": {
+          "@id": "https://xuchen.github.io/#person"
+        }
+      }
+    ]
+  }
+  </script>
   <script type="module" crossorigin src="/assets/index-CvCGSE-y.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DwFKqQ_K.css">
 </head>
 
 <body>
   <div id="root"></div>
+  <script>
+    const addJsonLd = (data) => {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.text = JSON.stringify(data);
+      document.head.appendChild(script);
+    };
+
+    const path = window.location.pathname;
+
+    if (path === '/the-token-epoch') {
+      addJsonLd({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Token Epoch: Rethinking the Economics of AI Labor",
+        "author": {
+          "@type": "Person",
+          "name": "Xuchen Yao"
+        },
+        "datePublished": "2025-06-24",
+        "description": "An in-depth exploration of the Token Epoch, a new economic era where AI labor is measured in Mega-Token-Hours (MTH).",
+        "keywords": "Token Epoch, AI Economics, Mega-Token-Hours, AI Labor Economics, Xuchen Yao, Token-based Economy, AI Productivity Measurement",
+        "url": "https://xuchen.github.io/the-token-epoch"
+      });
+    } else if (path === '/the-token-epoch/zh') {
+      addJsonLd({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Token纪元：智能社会的计量革命",
+        "author": {
+          "@type": "Person",
+          "name": "Xuchen Yao"
+        },
+        "datePublished": "2025-06-24",
+        "description": "深入探讨Token纪元，一个以兆令牌时（MTH）衡量AI劳动力的全新经济时代。",
+        "keywords": "Token纪元, AI经济学, 兆令牌时, AI劳动经济学, Xuchen Yao, 基于令牌的经济, AI生产力衡量",
+        "url": "https://xuchen.github.io/the-token-epoch/zh"
+      });
+    }
+  </script>
 </body>
 
 </html>
