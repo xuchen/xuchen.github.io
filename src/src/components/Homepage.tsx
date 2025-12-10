@@ -12,6 +12,11 @@ const Homepage: React.FC = () => {
 
   const featuredArticles = [
     {
+      title: "Programmatic SEO Case Study: Deploying 12,000 Static Pages for Free",
+      url: "https://www.linkedin.com/pulse/programmatic-seo-case-study-deploying-12000-static-pages-xuchen-yao-2zxsc/",
+      date: "12/9/2025"
+    },
+    {
       title: "How My Voice AI Negotiated a $1,630 Insurance Quote After Calling 11 Companies in 2 Hours",
       url: "https://www.linkedin.com/pulse/how-my-voice-ai-negotiated-1630-insurance-quote-after-xuchen-yao-mrnmc/",
       date: "1/14/2025"
