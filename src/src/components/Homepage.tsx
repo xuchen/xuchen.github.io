@@ -12,6 +12,11 @@ const Homepage: React.FC = () => {
 
   const featuredArticles = [
     {
+      title: "Rethinking Merging and Continous Integration for Agentic Workflows",
+      url: "https://www.linkedin.com/pulse/rethinking-merging-continous-integration-agentic-workflows-xuchen-yao-jkaxc/",
+      date: "11/4/2026"
+    },
+    {
       title: "Programmatic SEO Case Study: Deploying 12,000 Static Pages for Free",
       url: "https://www.linkedin.com/pulse/programmatic-seo-case-study-deploying-12000-static-pages-xuchen-yao-2zxsc/",
       date: "12/9/2025"
